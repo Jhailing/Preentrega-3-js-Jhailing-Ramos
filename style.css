@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+}
+
+.logo{
+    width: 150px;
+    height: 90px;
+}
+.presentacion{
+    margin-top: 50px;
+    font-size: 22px;
+}
+.title-presentacion{
+    background-color: rgb(203, 248, 233);
+    border: 1px rgb(87, 204, 224) solid;
+    border-right: transparent;
+}
+.respuesta-presentacion{
+    background-color: rgb(208, 245, 233);
+    border: 1px rgb(87, 204, 224) solid;
+    margin-right: 30px;
+    border-left: transparent;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+#nombre_empleado{
+    border: none;
+    background-color: rgb(208, 245, 233);
+}
+#generarTabla{
+    visibility: hidden;
+}
+.table{
+    margin-top: 40px;
+    font-size: 18px;
+}
+.btnModificarProd{
+    display: flex;
+    justify-content: space-around;
+}
+.btnShowProduct{
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(171, 208, 204);
+    margin-top: 160px;
+    font-weight: 700;
+}
